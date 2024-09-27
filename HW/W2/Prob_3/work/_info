@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3
+vCRA_4bits
+!s110 1726804609
+!i10b 1
+!s100 kfeZXOZPlTDgL3VG;2X`C2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I7]C5O5f<W1IWE@dE=51c22
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1726804601
+8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v
+FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v
+!i122 1
+L0 1 16
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1726804609.000000
+!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@c@r@a_4bits
+vFull_Adder
+Z7 !s110 1726804610
+!i10b 1
+!s100 1OM5e?S7gii5lWVCPfHjj3
+R1
+I>JGFI];5J^Gz_k^[3lR;W2
+R2
+R0
+w1726804599
+8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v
+FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v
+!i122 2
+Z8 L0 1 11
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v|
+!i113 1
+R5
+R6
+n@full_@adder
+vHalf_Adder
+R7
+!i10b 1
+!s100 `6WhJWN:Y:0JWG?NlWjNZ0
+R1
+I?]nSSeXFMR`HUbB21VA=j1
+R2
+R0
+w1726802363
+8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v
+FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v
+!i122 3
+R8
+R3
+r1
+!s85 0
+31
+!s108 1726804610.000000
+!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v|
+!i113 1
+R5
+R6
+n@half_@adder
