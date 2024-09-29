@@ -1,5 +1,6 @@
 `timescale 1ps/1ps
-module SR_FF_tb ();    
+module SR_FF_tb ();
+    
 reg S, R, clk, rst, Q;
 wire Qn;
 
@@ -11,6 +12,7 @@ SR_FF dut (
     .Q(Q),
     .Qn(Qn)
 );
+
 initial begin
     clk = 0;
     forever #5 clk = ~clk;

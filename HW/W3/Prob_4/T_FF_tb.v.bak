@@ -1,5 +1,6 @@
 `timescale 1ps/1ps
 module T_FF_tb ();
+
 reg T,clk,rst,Q;
 wire Qn;
 
@@ -23,4 +24,5 @@ initial begin
     T = 0; #10;
     $finish;
 end
+
 endmodule

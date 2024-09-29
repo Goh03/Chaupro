@@ -10,30 +10,53 @@ z2
 cModel Technology
 Z0 dC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2
 vmajority
-Z1 !s110 1726801980
+Z1 !s110 1727580339
 !i10b 1
-!s100 Ie19>;D;9dBJG7?BPM67@2
+!s100 6NZY6YWZDD7?L1`b6<2Mf1
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IjmQYjhcRFO93h[4GD^dl>0
+IGi@UTRhB<`b=9M@HzT2PF1
 Z3 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1726801935
-8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/majority.v
-FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/majority.v
-!i122 0
+Z4 dC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2
+w1727344516
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority.v
+!i122 2
 L0 1 15
-Z4 OV;L;2020.1;71
+Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z5 !s108 1726801980.000000
-!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/majority.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/majority.v|
+Z6 !s108 1727580339.000000
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority.v|
 !i113 1
-Z6 o-work work
-Z7 tCvgOpt 0
-vmultiplexer
+Z7 o-work work
+Z8 tCvgOpt 0
+vmajority_tb
 R1
+!i10b 1
+!s100 3ERA`Olb15@aK]n4l^5E]0
+R2
+IX1]V<2OM^IbXgdEAa_9kF3
+R3
+R4
+w1727344157
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority_tb.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority_tb.v
+!i122 3
+Z9 L0 2 23
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/majority_tb.v|
+!i113 1
+R7
+R8
+vmultiplexer
+!s110 1726801980
 !i10b 1
 !s100 ZI_45=@EfJ^dS8Kd2WKdL1
 R2
@@ -45,13 +68,36 @@ w1726801933
 FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/multiplexer.v
 !i122 1
 L0 1 14
-R4
+R5
 r1
 !s85 0
 31
-R5
+!s108 1726801980.000000
 !s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/multiplexer.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_2/multiplexer.v|
 !i113 1
-R6
 R7
+R8
+vmultiplexer_tb
+!s110 1727580344
+!i10b 1
+!s100 `6cA9QJCLh_XPafCO]:h61
+R2
+I31hW30D78Vd?;:jK5XSJo2
+R3
+R4
+w1727344171
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/multiplexer_tb.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/multiplexer_tb.v
+!i122 4
+R9
+R5
+r1
+!s85 0
+31
+!s108 1727580344.000000
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/multiplexer_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_2/multiplexer_tb.v|
+!i113 1
+R7
+R8

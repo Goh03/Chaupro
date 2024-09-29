@@ -9,75 +9,147 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3
-vCRA_4bits
-!s110 1726804609
+vCRA
+!s110 1727580607
 !i10b 1
-!s100 kfeZXOZPlTDgL3VG;2X`C2
+!s100 N=jOG?o_b]6Hm@;i5foRS0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I7]C5O5f<W1IWE@dE=51c22
+IL^kLoPMd:g47kkLP=5m3D3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1726804601
-8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v
-FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v
-!i122 1
-L0 1 16
-Z3 OV;L;2020.1;71
+Z3 dC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3
+w1727346636
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA.v
+!i122 4
+L0 1 37
+Z4 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z4 !s108 1726804609.000000
-!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/CRA.v|
+Z5 !s108 1727580607.000000
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA.v|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
-n@c@r@a_4bits
-vFull_Adder
-Z7 !s110 1726804610
+Z6 o-work work
+Z7 tCvgOpt 0
+n@c@r@a
+vCRA_tb
+Z8 !s110 1727580608
 !i10b 1
-!s100 1OM5e?S7gii5lWVCPfHjj3
+!s100 HeC8087B8@Tf>3:XM<5VI0
 R1
-I>JGFI];5J^Gz_k^[3lR;W2
+I;5<27Hl`Ha]TWQAP6k5fc0
 R2
-R0
-w1726804599
-8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v
-FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v
-!i122 2
-Z8 L0 1 11
 R3
-r1
-!s85 0
-31
+w1727347796
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA_tb.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA_tb.v
+!i122 5
+L0 2 36
 R4
-!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Full_Adder.v|
-!i113 1
-R5
-R6
-n@full_@adder
-vHalf_Adder
-R7
-!i10b 1
-!s100 `6WhJWN:Y:0JWG?NlWjNZ0
-R1
-I?]nSSeXFMR`HUbB21VA=j1
-R2
-R0
-w1726802363
-8C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v
-FC:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v
-!i122 3
-R8
-R3
 r1
 !s85 0
 31
-!s108 1726804610.000000
-!s107 C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v|
-!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/HDL/W2/Prob_3/Half_Adder.v|
-!i113 1
 R5
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/CRA_tb.v|
+!i113 1
 R6
+R7
+n@c@r@a_tb
+vFull_Adder
+R8
+!i10b 1
+!s100 5S`8[D?SKP1[Q1B0ILN0A1
+R1
+IX0K3[XbO6767PI6=bR7390
+R2
+R3
+w1727345433
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder.v
+!i122 6
+L0 1 17
+R4
+r1
+!s85 0
+31
+Z9 !s108 1727580608.000000
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder.v|
+!i113 1
+R6
+R7
+n@full_@adder
+vFull_Adder_tb
+R8
+!i10b 1
+!s100 1cmcAH2Uh]9jK`jNIXNV>0
+R1
+IJCLPn8`ZZSfoJVW`61elP3
+R2
+R3
+w1727406841
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder_tb.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder_tb.v
+!i122 7
+Z10 L0 2 24
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Full_Adder_tb.v|
+!i113 1
+R6
+R7
+n@full_@adder_tb
+vHalf_Adder
+R8
+!i10b 1
+!s100 ]XCl4R[[AaoNnCgW^K9B10
+R1
+IICWW5Ng1df?R;_j[m`HXf0
+R2
+R3
+w1727344908
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder.v
+!i122 8
+L0 1 11
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder.v|
+!i113 1
+R6
+R7
 n@half_@adder
+vHalf_Adder_tb
+R8
+!i10b 1
+!s100 d82<oF]>P`LmD84;lEXSc2
+R1
+IB@zJ62]Ao70SWMKk9H@j71
+R2
+R3
+w1727344183
+8C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder_tb.v
+FC:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder_tb.v
+!i122 9
+R10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder_tb.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Lenovo/Desktop/Study/CODE/Git/Chaupro/HW/W2/Prob_3/Half_Adder_tb.v|
+!i113 1
+R6
+R7
+n@half_@adder_tb

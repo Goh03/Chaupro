@@ -17,5 +17,4 @@ always @(posedge clk or posedge rst) begin
                 Qn <= Q;  
             end
         end
-end    
-endmodule    
+   

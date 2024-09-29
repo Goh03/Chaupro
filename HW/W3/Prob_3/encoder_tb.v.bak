@@ -23,4 +23,5 @@ initial begin
     D = 8'b10000000; #10;  
     $finish;
 end
+
 endmodule
