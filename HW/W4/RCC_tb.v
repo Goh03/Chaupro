@@ -20,11 +20,7 @@ module Ripple_Carry_Counter_tb();
         rst = 1;
         #10;
         rst = 0;
-        #100;
-        rst = 1;
-        #10;
-        rst = 0;
-        #100;
+        #200;
         $finish;
     end
 endmodule

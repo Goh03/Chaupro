@@ -20,8 +20,8 @@ module Gray_Counter_4bit_tb();
         rst = 1;
         #10;
         rst = 0;
-        #300;
-        $display("Time: %dns, Reset: %b, Gray Code: %b", $time, rst, gray);
+        #100;
+        $display("Time: %0dns, Reset: %b, Gray Code: %b", $time, rst, gray);
         $finish;
     end
 endmodule
