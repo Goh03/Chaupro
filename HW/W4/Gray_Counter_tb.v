@@ -12,7 +12,7 @@ module Gray_Counter_4bit_tb();
 
     initial begin
         clk = 0;
-        forever #10 clk = ~clk;
+        forever #5 clk = ~clk;
     end
 
     initial begin
@@ -20,7 +20,7 @@ module Gray_Counter_4bit_tb();
         rst = 1;
         #10;
         rst = 0;
-        #300;
+        #150;
         $display("Time: %dns, Reset: %b, Gray Code: %b", $time, rst, gray);
         $finish;
     end

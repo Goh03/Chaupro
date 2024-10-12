@@ -15,7 +15,7 @@ module Four_bit_compartor_tb();
     );
 
     initial begin
-        $display("A3 A2 A1 A0 | B3 B2 B1 B0 | A gt B | A lt B | A == B");
+        $display("A3 A2 A1 A0 | B3 B2 B1 B0 | A gt B | A lt B | A eq B");
         $display("-----------------------------------------------");
         $monitor(" %b  %b  %b  %b  |  %b  %b  %b  %b  |   %b   |   %b   |   %b", A3, A2, A1, A0, B3, B2, B1, B0, A_gt_B, A_lt_B, A_eq_B);
 

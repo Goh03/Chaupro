@@ -15,7 +15,7 @@ module Carry_Look_Ahead_Adder_n_bit_tb();
     );
 
     initial begin
-        $display("A\t\tB\t\tCin\tSum\t\tCout");
+        $display("A\tB\tCin\tSum\tCout");
         $monitor("%b\t%b\t%b\t%b\t%b", a, b, cin, sum, cout);
         a = 4'b0001; b = 4'b0010; cin = 0; #10;
         a = 4'b0101; b = 4'b0011; cin = 1; #10;

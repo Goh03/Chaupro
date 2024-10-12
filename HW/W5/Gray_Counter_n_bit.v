@@ -1,19 +1,18 @@
-module Gray_Counter_n_bit #(
-    parameter N = 4
-) (
+module Gray_Counter_n_bit #(parameter N = 4) (
     input clk,
     input reset,
-    output reg [N-1:0] gray_out
+    output reg [N-1:0] gray_code
 );
-    reg [N-1:0] binary_count;
+
+    reg [N-1:0] binary_counter;
 
     always @(posedge clk or posedge reset) begin
-        if (reset)
-            binary_count <= 0;
-        else
-            binary_count <= binary_count + 1;
+        if (reset) begin
+            binary_counter <= 0;
+            gray_code <= 0;
+        end else begin
+            binary_counter <= binary_counter + 1;
+            gray_code <= binary_counter ^ (binary_counter >> 1);
+        end
     end
-
-    assign gray_out = binary_count ^ (binary_count >> 1);
-
 endmodule

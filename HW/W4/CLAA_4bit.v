@@ -1,4 +1,4 @@
-    module Carry_Look_Ahead_Adder_4bit (
+module Carry_Look_Ahead_Adder_4bit (
     input [3:0] a, b,
     input cin,
     output [3:0] s,
