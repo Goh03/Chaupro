@@ -1,5 +1,5 @@
 `timescale 1ps/1ps
-module tb_multiplexer_4_to_1();
+module multiplexer_4_to_1_tb();
     reg S0, S1, A, B, C, D;    
     wire Y;            
 
