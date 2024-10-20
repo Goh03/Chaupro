@@ -1,12 +1,12 @@
 `timescale 1ps/1ps
-module Two_bit_compartor_tb();
+module Two_bit_comparator_tb();
     reg A1, A0;
     reg B1, B0;
     wire A_gt_B;
     wire A_lt_B;
     wire A_eq_B;
 
-    Two_bit_compartor dut (
+    Two_bit_comparator dut (
         .A1(A1), .A0(A0),
         .B1(B1), .B0(B0),
         .A_gt_B(A_gt_B),

@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.Gray_Counter_n_bit","id":2,"zf":1,"tc":96.66,"s":100.00,"b":100.00,"t":90.00},{"n":"work.Gray_Counter_n_bit_tb","id":1,"zf":1,"tc":91.66,"s":100.00,"t":83.33}]};
+processDuData(g_data);
