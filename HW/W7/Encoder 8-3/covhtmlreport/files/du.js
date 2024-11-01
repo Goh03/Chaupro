@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.encoder_8to3","id":2,"zf":1,"tc":96.96,"s":100.00,"b":100.00,"t":90.90},{"n":"work.encoder_8to3_tb","id":1,"zf":1,"tc":92.95,"s":95.00,"t":90.90}]};
+processDuData(g_data);
