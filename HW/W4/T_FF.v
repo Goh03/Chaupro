@@ -3,10 +3,10 @@ module T_FF (
     output reg Q
 );
 
-    always @(posedge clk or posedge rst) begin
+    always @(negedge clk) begin
         if (rst)
             Q <= 1'b0;   
-        else if (T)
+        else if (~T)
             Q <= ~Q;     
     end
 endmodule
