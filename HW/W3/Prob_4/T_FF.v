@@ -1,12 +1,15 @@
 module T_FF (
-    T, clk, rst, Q, Qn
+    input T,           
+    input clk,         
+    input reset,       
+    output reg Q            
 );
-    input T, clk, rst, Q;
-    output Qn;
-    wire D1, D2;
 
-    D_FF dff1 (D1, clk, rst, Q);
-    xor gate1 (D2, T, Q);
-    D_FF dff2 (D2, clk, rst, Qn);
+always @(posedge clk) begin
+    if (reset)             
+        Q <= 1'b0;
+    else if (T)
+        Q <= ~Q;            
+end
 
 endmodule
