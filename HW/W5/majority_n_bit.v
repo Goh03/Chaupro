@@ -18,23 +18,20 @@
 
 // endmodule
 
-module majority_n_bit #(parameter N = 5) (
+module majority_n_bit #(parameter N = 4) (
     input [N-1:0] a,
     output F
 );
+    reg[N:0] sum;
+    integer i;
 
-    wire [$clog2(N+1)-1:0] count_ones;
-    wire [$clog2(N+1)-1:0] temp[N:0];
-    genvar i;
-    assign temp[0] = 0;
-
-    generate    
-        for (i = 0; i < N; i = i + 1) begin : count_bits
-            assign temp[i+1] = temp[i] + a[i];
+    always @(a) begin
+        sum = 0;
+        for (i = 0; i < N; i = i + 1) begin 
+            sum = sum + a[i];
         end
-    endgenerate
-    
-    assign count_ones = temp[N];
-    assign F = (count_ones > (N / 2)) ? 1'b1 : 1'b0;
+    end 
+
+    assign F = (sum > (N >> 1)) ? 1'b1 : 1'b0;
 
 endmodule
