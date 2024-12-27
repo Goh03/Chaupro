@@ -1,0 +1,89 @@
+$date
+	Mon Dec 23 23:09:46 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module Parity_tb $end
+$var reg 1 ! reset_n $end
+$var reg 8 " data_in [7:0] $end
+$var reg 2 # parity_type [1:0] $end
+$var wire 1 $ parity_bit $end
+
+$scope module dut $end
+$var parameter 2 % NOPARITY00 $end
+$var parameter 2 & ODD $end
+$var parameter 2 ' Even $end
+$var parameter 2 ( NOPARITY11 $end
+$var wire 1 ) reset_n $end
+$var wire 1 * data_in [7] $end
+$var wire 1 + data_in [6] $end
+$var wire 1 , data_in [5] $end
+$var wire 1 - data_in [4] $end
+$var wire 1 . data_in [3] $end
+$var wire 1 / data_in [2] $end
+$var wire 1 0 data_in [1] $end
+$var wire 1 1 data_in [0] $end
+$var wire 1 2 parity_type [1] $end
+$var wire 1 3 parity_type [0] $end
+$var reg 1 4 parity_bit $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b10111 "
+b0 #
+14
+b0 %
+b1 &
+b10 '
+b11 (
+1$
+03
+02
+0)
+11
+10
+1/
+0.
+1-
+0,
+0+
+0*
+$end
+#10
+1!
+b1111 "
+1)
+1.
+0-
+#20
+b10101111 "
+b1 #
+13
+1,
+1*
+#30
+b10101001 "
+b10 #
+03
+12
+00
+0/
+04
+0$
+#40
+b11 #
+13
+14
+1$
+#50
+b10111101 "
+1/
+1-

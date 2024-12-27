@@ -1,0 +1,291 @@
+$date
+	Tue Dec 24 10:16:22 2024
+$end
+$version
+	ModelSim Version 2020.1
+$end
+$timescale
+	1ns
+$end
+
+$scope module PISO_tb $end
+$var reg 1 ! reset_n $end
+$var reg 1 " send $end
+$var reg 1 # baud_clk $end
+$var reg 1 $ parity_bit $end
+$var reg 2 % parity_type [1:0] $end
+$var reg 8 & data_in [7:0] $end
+$var wire 1 ' data_tx $end
+$var wire 1 ( active_flag $end
+$var wire 1 ) done_flag $end
+
+$scope module dut $end
+$var parameter 1 * IDLE $end
+$var parameter 1 + ACTIVE $end
+$var wire 1 , reset_n $end
+$var wire 1 - send $end
+$var wire 1 . baud_clk $end
+$var wire 1 / parity_bit $end
+$var wire 1 0 parity_type [1] $end
+$var wire 1 1 parity_type [0] $end
+$var wire 1 2 data_in [7] $end
+$var wire 1 3 data_in [6] $end
+$var wire 1 4 data_in [5] $end
+$var wire 1 5 data_in [4] $end
+$var wire 1 6 data_in [3] $end
+$var wire 1 7 data_in [2] $end
+$var wire 1 8 data_in [1] $end
+$var wire 1 9 data_in [0] $end
+$var reg 1 : data_tx $end
+$var reg 1 ; active_flag $end
+$var reg 1 < done_flag $end
+$var reg 4 = stop_count [3:0] $end
+$var reg 11 > frame [10:0] $end
+$var reg 11 ? frame_r [10:0] $end
+$var reg 8 @ reg_data [7:0] $end
+$var reg 1 A next_state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+b0 %
+b11001100 &
+x:
+x;
+x<
+bx =
+b11110011000 >
+bx ?
+b11001100 @
+0A
+b0 *
+b1 +
+x'
+x(
+x)
+09
+08
+17
+16
+05
+04
+13
+12
+01
+00
+0/
+0.
+0-
+0,
+$end
+#100
+1!
+1,
+#200
+1"
+1-
+#1000
+0"
+0-
+#2000
+1"
+1-
+#2800
+0"
+0-
+#52083
+1#
+1.
+b11110011000 ?
+1:
+0;
+1<
+b0 =
+1'
+0(
+1)
+#104166
+0#
+0.
+#156249
+1#
+1.
+#208332
+0#
+0.
+#260415
+1#
+1.
+#312498
+0#
+0.
+#364581
+1#
+1.
+#416664
+0#
+0.
+#468747
+1#
+1.
+#500000
+b1 %
+1$
+b10101010 &
+18
+07
+14
+03
+11
+1/
+#520830
+0#
+0.
+#572913
+1#
+1.
+#624996
+0#
+0.
+#677079
+1#
+1.
+#729162
+0#
+0.
+#781245
+1#
+1.
+#833328
+0#
+0.
+#885411
+1#
+1.
+#937494
+0#
+0.
+#989577
+1#
+1.
+#1000000
+b10 %
+0$
+b11110000 &
+08
+06
+15
+13
+01
+10
+0/
+b10110011000 >
+#1041660
+0#
+0.
+#1093743
+1#
+1.
+b10110011000 ?
+#1145826
+0#
+0.
+#1197909
+1#
+1.
+#1249992
+0#
+0.
+#1302075
+1#
+1.
+#1354158
+0#
+0.
+#1406241
+1#
+1.
+#1458324
+0#
+0.
+#1500000
+b11 %
+1$
+b1111 &
+19
+18
+17
+16
+05
+04
+03
+02
+11
+1/
+b11110011000 >
+#1510407
+1#
+1.
+b11110011000 ?
+#1562490
+0#
+0.
+#1614573
+1#
+1.
+#1666656
+0#
+0.
+#1718739
+1#
+1.
+#1770822
+0#
+0.
+#1822905
+1#
+1.
+#1874988
+0#
+0.
+#1927071
+1#
+1.
+#1979154
+0#
+0.
+#2031237
+1#
+1.
+#2083320
+0#
+0.
+#2135403
+1#
+1.
+#2187486
+0#
+0.
+#2239569
+1#
+1.
+#2291652
+0#
+0.
+#2343735
+1#
+1.
+#2395818
+0#
+0.
+#2447901
+1#
+1.
+#2499984
+0#
+0.
