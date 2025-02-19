@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.disp_hex_mux","id":2,"zf":1,"tc":41.64,"s":48.57,"b":36.36,"t":40.00},{"n":"work.tb_disp_hex_mux","id":1,"zf":1,"tc":72.05,"s":100.00,"t":44.11}]};
+processDuData(g_data);
