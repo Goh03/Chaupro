@@ -1,0 +1,11 @@
+train: /kaggle/input/aic22-data/Yolo # train images (relative to 'path') 128 images
+val: /kaggle/input/daynight/daynight_split/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+# Classes
+nc: 4
+names:
+  0: Motorbike
+  1: Car
+  2: Bus
+  3: Truck
